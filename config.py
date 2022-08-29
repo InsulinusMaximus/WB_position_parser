@@ -23,6 +23,12 @@ chernie_velo_jenskie_urls = [
     f'https://search.wb.ru/exactmatch/ru/common/v4/search?appType=1&couponsGeo=2,12,7,3,6,18,22,21&curr=rub&dest=-1029256,-72180,-1777927,123586188&emp=0&lang=ru&locale=ru&page={page_num}&pricemarginCoeff=1.0&query=велосипедки женские черные&reg=0&regions=68,64,83,4,38,80,33,70,82,86,30,69,22,66,31,40,1,48&resultset=catalog&sort=popular&spp=0'
     for page_num in range(1, 61)]
 
+
+query_velo_jenskie = 'ВелосипедкиЖенские'
+velo_jenskie_urls = [
+    f'https://search.wb.ru/exactmatch/ru/common/v4/search?appType=1&couponsGeo=2,12,7,3,6,18,22,21&curr=rub&dest=-1029256,-72180,-1777926,123585956&emp=0&lang=ru&locale=ru&page={page_num}&pricemarginCoeff=1.0&query=велосипедки женские&reg=1&regions=68,64,83,4,38,80,33,70,82,86,30,69,22,66,31,40,1,48&resultset=catalog&sort=popular&spp=18'
+    for page_num in range(1, 61)]
+
 '''
 Topy 
 _______________________________________________________________________________________________
@@ -109,6 +115,10 @@ ukorochennaya_zhenskaya_futbolka_iz_khlopkaurls = [
     f'https://search.wb.ru/exactmatch/ru/common/v4/search?appType=1&couponsGeo=2,12,7,3,6,18,22,21&curr=rub&dest=-1029256,-72180,-1777927,123586188&emp=0&lang=ru&locale=ru&page={page_num}&pricemarginCoeff=1.0&query=укороченная женская футболка из хлопка&reg=0&regions=68,64,83,4,38,80,33,70,82,86,30,69,22,66,31,40,1,48&resultset=catalog&sort=popular&spp=0'
     for page_num in range(1, 61)]
 
+query_futbolka_zhenskaya = 'ФутболкаЖенская'
+futbolka_zhenskaya_urls = [
+    f'https://search.wb.ru/exactmatch/ru/common/v4/search?appType=1&couponsGeo=2,12,7,3,6,18,22,21&curr=rub&dest=-1029256,-72180,-1777926,123585956&emp=0&lang=ru&locale=ru&page={page_num}&pricemarginCoeff=1.0&query=футболка женская&reg=1&regions=68,64,83,4,38,80,33,70,82,86,30,69,22,66,31,40,1,48&resultset=catalog&sort=popular&spp=18'
+    for page_num in range(1, 61)]
 
 '''
 Pizhamy

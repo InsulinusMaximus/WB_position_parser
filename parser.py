@@ -6,6 +6,7 @@ from urllib.parse import urlparse
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger('WB')
 
+
 class Parser_WB:
 
     def __init__(self):
@@ -43,6 +44,7 @@ class Parser_WB:
                 'article',
                 'product_name',
                 'brand_name',
+                'request_name',
             )
         )
 
@@ -55,6 +57,7 @@ class Parser_WB:
                     data['id'],
                     data['name'],
                     data['brand'],
+                    query,
                 ))
 
     def url_parser(self, url: str):
@@ -68,5 +71,3 @@ class Parser_WB:
             json = self.load_page(
                 url=url)
             self.parse_json(json=json, query=query)
-
-
